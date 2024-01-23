@@ -1,0 +1,65 @@
+*{
+    margin-left: 0;
+    margin-right: 0;
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html {
+    background: linear-gradient(225deg, #5a0000, #1a0000);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 60s ease infinite;
+    -moz-animation: AnimationName 60s ease infinite;
+    animation: AnimationName 60s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 52%}
+    50%{background-position:100% 49%}
+    100%{background-position:0% 52%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 52%}
+    50%{background-position:100% 49%}
+    100%{background-position:0% 52%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 52%}
+    50%{background-position:100% 49%}
+    100%{background-position:0% 52%}
+}
+
+
+#LogoContainer{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+#BtnContainer{
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    width: 25vw;
+    height: 100%;
+
+    margin: 0 25px;
+    padding-top: 10px;
+
+    border-radius: 10px;
+    border: none;
+
+    background:linear-gradient(0, #ff312f, #ff312f) ;
+    text-decoration: none;
+    text-align: center; 
+       
+    color: white;
+    font-size: 24px;
+    
+}
+.btn:hover{
+    background: linear-gradient(225deg, #5a0000, #ff312f);
+}
