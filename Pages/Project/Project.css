@@ -1,4 +1,4 @@
-@font-face { font-family: MainFont; src: url("./Resources/Font.ttf"); } 
+@font-face { font-family: MainFont; src: url("../../Resources/ProtestStrike-Regular.ttf"); } 
 
 *{
     margin-left: 0;
@@ -62,9 +62,11 @@ html {
   height: 100vh;
 
   display: flex;
-  overflow-y: hidden;
+  flex-wrap: wrap;
+  justify-content: start;
+  overflow:auto;
 
-  background-color: rgba(20, 20, 20, 0.5);
+  background-color: rgba(255, 255, 255, 0.5);
   border-radius: 20px;
 }
 
@@ -72,8 +74,13 @@ html {
   margin: 25px;
   width: 200px;
   height: 300px;
+
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+  font-size: 200%;
+  transition: 0.3s;
 }
 .card>img{
+  margin: 0;
   width: 100%;
   height: 66%;
 
@@ -81,6 +88,7 @@ html {
   border-top-right-radius: 10px;
 }
 .card>div{
+  margin: 0;
   width: 100%;
   height: calc(33% - 30px);
 
@@ -92,8 +100,13 @@ html {
   border-bottom-right-radius: 10px;
 
   text-align: center;
-  font-family: monospace;
-  font-size: 32px;
+}
+
+.card:hover{
+  box-shadow: 0 16px 32px 0 rgba(0,0,0,0.5);
+  width: 210px;
+  height: 315px;
+  font-size: 250%;
 }
 
 #particles {
