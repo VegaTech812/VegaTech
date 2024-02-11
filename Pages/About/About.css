@@ -1,11 +1,12 @@
 @font-face { font-family: MainFont; src: url("../../Resources/ProtestStrike-Regular.ttf"); } 
-
+@font-face { font-family: SecondaryFont; src: url("../../Resources/Monserrat.ttf"); } 
 *{
     margin-left: 0;
     margin-right: 0;
     padding: 0;
 
     font-family:MainFont;
+    scrollbar-width: thin;
 }
 
 html {
@@ -32,16 +33,43 @@ html {
     100%{background-position:0% 52%}
 }
 
+.ReturnHomeBtn{
+  position:fixed;
+  top: 40px;
+  left: 40px;
+  width: 50px;
+  height: 50px;
+
+  background-color: rgba(0, 0, 0, 0.5);
+
+  border-radius: 100%;
+
+  border: none;
+  transition: 500ms;
+}
+
+.ReturnHomeBtn > img{
+  position: absolute;
+  top: 25%;
+  left: 25%;
+}
+
+.ReturnHomeBtn:hover{
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
 #particles {
   position: fixed;
   width: 98%;
   height: 98%;
   background-color: rgba(0, 0, 0, 0);
   overflow: hidden;
+  z-index: -100;
 }
 
 #particles > * {
   overflow: hidden;
+  z-index: -100;
 }
 
 
@@ -49,13 +77,13 @@ html {
   margin: 2vw;
   padding: 2.5vw;
   border-radius: 15px;
-  background-color: white;
+
   text-align: center;
 }
 
 .header{
   width: 200px;
-  background: linear-gradient(135deg, rgba(2,0,36,1) 0%, rgba(255,0,0,1) 25%, rgba(175,0,0,1) 50%, rgba(255,0,0,1) 75%, rgba(0,0,0,1) 100%);
+  background: linear-gradient(135deg, rgb(30, 0, 0) 0%, rgb(102, 0, 0) 25%, rgba(175,0,0,1) 50%, rgb(102, 0, 0) 75%, rgb(30, 0, 0));
   color: white;
 
   font-weight: 700;
@@ -75,9 +103,118 @@ html {
 
 #Summary{
   padding: 2vw;
+  font-size: 72;
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 30px;
+  color:#ff5757;
+
+}
+
+#Members{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+
+}
+
+.card{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: start;
+  flex-wrap: wrap;
+  width: 70vw;
+  border: 2px solid #ff5757;
+  border-radius: 10px;
+  margin:20px 0;
+  padding: 20px 50px;
+  box-shadow: 4px 4px 8px 5px #ff5757;
+
+}
+
+.card-photo{
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  padding: 20px;
+
+  
+}
+
+.name-container{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 9px;
+  color:#ff5757;
+  font-size: larger;
+}
+
+.title{
+  display: inline;
+  background: linear-gradient(135deg, rgb(30, 0, 0) 0%, rgb(102, 0, 0) 25%, rgba(175,0,0,1) 50%, rgb(102, 0, 0) 75%, rgb(30, 0, 0) 100%);
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: larger;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.member-description{
+  margin: 8px 0;
+  padding: 0;
+  font-size: 18px;
+  font-weight: bold;
+  font-family:SecondaryFont ;
+  color:#ff5757;
+}
+
+.card:nth-child(odd){
+    flex-direction: row;
+    text-align: left;
+}
+
+.card:nth-child(even) > .info-container{
+    display: flex;
+    justify-content: left;
+    align-items: baseline;  
+    flex-direction: column;
+
+
+    
+}
+.card:nth-child(even) > .card-photo{
+  margin-left:auto ;
+
+ 
+}
+.card:nth-child(odd) > .card-photo{
+  margin-right:50px ;
+ 
+}
+
+#logo{
+    width: 550px;
+    height:550px;
+}
+
+
+.separator {
+  margin: 30px auto;
+  margin-bottom: 40px;
+  height: 5px;
+  width: 86vw;
+  border-radius: 9000px;
+}
+
+.gradient {
+  background: rgb(216,107,233);
+  background: linear-gradient(135deg, #3a000050 0%, #ff5757 50%, #3a000050 100%);
+
 }
 
