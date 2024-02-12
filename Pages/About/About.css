@@ -35,8 +35,8 @@ html {
 
 .ReturnHomeBtn{
   position:fixed;
-  top: 40px;
-  left: 40px;
+  top: 10px;
+  left: 10px;
   width: 50px;
   height: 50px;
 
@@ -89,7 +89,7 @@ html {
   font-weight: 700;
   font-size: 42px;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 50px;
   margin-bottom: 40px;
   width: fit-content;
   margin-left: auto;
@@ -222,6 +222,7 @@ html {
 @media (min-width:320px) and (max-width:999px){
   #Summary{
     flex-direction: column;
+    padding: 0 10vw;
   }
   .card{
     flex-direction: column;
@@ -268,6 +269,9 @@ html {
   .card:nth-child(odd) > .card-photo{
     margin-right:0 ;
    
+  }
+  .card:nth-child(even){
+    box-shadow: 0px 0px 8px 5px #ff5757;
   }
 
 }

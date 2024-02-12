@@ -95,3 +95,30 @@ html {
   overflow: hidden;
   z-index: -100;
 }
+
+@media (min-width:320px) and (max-width:999px){
+  #LogoContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vw;
+    margin-bottom:auto ;
+}
+  #Logo{
+    width: 70vw;
+    height: 70vw;
+  }
+  #BtnContainer{
+    flex-direction: column;
+    align-items: center;
+
+  }
+  .btn{
+    margin: 20px 0;
+    
+    height: 80vw;
+    width: 80vw;
+
+  }
+
+}
