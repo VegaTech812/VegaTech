@@ -197,7 +197,9 @@ html {
   margin-right:50px ;
  
 }
-
+.card:nth-child(even){
+  box-shadow: -4px 4px 8px 5px #ff5757;
+}
 #logo{
     width: 550px;
     height:550px;
@@ -213,8 +215,59 @@ html {
 }
 
 .gradient {
-  background: rgb(216,107,233);
   background: linear-gradient(135deg, #3a000050 0%, #ff5757 50%, #3a000050 100%);
 
 }
 
+@media (min-width:320px) and (max-width:999px){
+  #Summary{
+    flex-direction: column;
+  }
+  .card{
+    flex-direction: column;
+    margin: 0px;
+    margin-top: 35px;
+    width: 65vw;
+    box-shadow: 0px 0px 8px 4px #ff5757;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  #logo{
+    width: 300px;
+    height:300px;
+  }
+  #Background{
+    margin:0px;
+    padding: 0px;
+
+  }
+  .card-photo{
+    height: 150px;
+    width:150px;
+  }
+  .name-container{
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .name-container > h1 {
+    margin: 0;
+  }
+  .member-description{
+    text-align: center;
+
+  }
+
+  .card:nth-child(even) > .card-photo{
+    margin-left:0 ;
+  
+   
+  }
+  .card:nth-child(odd) > .card-photo{
+    margin-right:0 ;
+   
+  }
+
+}
