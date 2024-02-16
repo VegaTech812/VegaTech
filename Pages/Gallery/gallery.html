@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./gallery.css">
+        <link rel="icon" type="image/x-icon" href="../.././Resources/Logo2.png">
+        <script src="gallery.js"></script>
+        <title>Vega Tech</title>
+    </head>
+
+    <body>
+        <div id="particles"></div>
+        <script src="../../script.js"></script>
+
+
+
+        <div class="Container">
+            <img onclick="OpenElement(this.id)" id="img1" class="card" src="../../Resources/foto2.png" alt="Star">           
+            <img onclick="OpenElement(this.id)" id="img2" class="card" src="../../Resources/foto2.png" alt="Star">            
+            <img onclick="OpenElement(this.id)" id="img3" class="card" src="../../Resources/galerifoto1.png" alt="Star" >              
+            <img onclick="OpenElement(this.id)" id="img4" class="card" src="../../Resources/galerifoto1.png" alt="Star">
+            <img onclick="OpenElement(this.id)" id="img5" class="card" src="../../Resources/galerifoto1.png" alt="Star">
+        
+
+            <button class="ReturnHomeBtn" onclick="location.href='../../index.html'"><img src="../../Resources/ArrowBackIcon.svg" alt=""></button>
+        
+            <script src="./gallery.js"></script>
+        </div>
+        <div id="bigimage">
+            <img src="" id="bigimg">
+            <button id="closebutton" onclick="CloseElement('bigimage')"><img src="../../Resources/close.svg" alt=""></button>
+        </div>
+        
+    </body>
+    </html>

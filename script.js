@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
       for (let i = 0; i < particleCount; i++) {
         createParticle();
       }
-    }, 200);
+    });
   
     function createParticle() {
       const particle = document.createElement('div');
