@@ -108,42 +108,56 @@ html {
   
     border: none;
     transition: 500ms;
-  }
+}
   
-  .ReturnHomeBtn > img{
-    position: absolute;
-    top: 25%;
-    left: 25%;
-  }
-  
-  .ReturnHomeBtn:hover{
-    background-color: rgba(0, 0, 0, 0.75);
-  }
-  #closebutton{
-    position:fixed;
-    top: 10px;
-    left: 10px;
-    width: 50px;
-    height: 50px;
-    margin-left: 11vw;
-    margin-top: 1vw;
-    background-color: rgba(0, 0, 0, 0.5);
-  
-    border-radius: 30%;
-  
-    border: none;
+.ReturnHomeBtn > img{
+  position: absolute;
+  top: 25%;
+  left: 25%;
+}
 
+.ReturnHomeBtn:hover{
+  background-color: rgba(0, 0, 0, 0.75);
+}
+#closebutton{
+  position:fixed;
+  top: 10px;
+  left: 10px;
+  width: 50px;
+  height: 50px;
+  margin-left: 11vw;
+  margin-top: 1vw;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  border-radius: 30%;
+
+  border: none;
+
+}
+
+#closebutton > img{
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  color: white;
+}
+
+#bigimage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#bigimg{
+  border-radius: 2%;
+  width:90%;
+
+
+}
+
+@media (min-width:320px) and (max-width:1000px){
+  .card{
+    pointer-events: none;
   }
-  
-  #closebutton > img{
-    position: absolute;
-    top: 25%;
-    left: 25%;
-    color: white;
-  }
-  
-  #bigimg{
-    border-radius: 5%;
-    width:60vw;
-    height: 45vw;
-  }
+
+}

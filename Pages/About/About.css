@@ -219,7 +219,7 @@ html {
 
 }
 
-@media (min-width:320px) and (max-width:999px){
+@media (min-width:320px) and (max-width:1000px){
   #Summary{
     flex-direction: column;
     padding: 0 10vw;

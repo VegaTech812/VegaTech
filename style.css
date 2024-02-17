@@ -96,7 +96,7 @@ html {
   z-index: -100;
 }
 
-@media (min-width:320px) and (max-width:999px){
+@media (min-width:320px) and (max-width:1000px){
   #LogoContainer{
     display: flex;
     justify-content: center;
