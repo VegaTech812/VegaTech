@@ -275,9 +275,14 @@ html {
   .card:nth-child(even){
     box-shadow: 0px 0px 8px 5px #ff5757;
   }
-
+  .info-container{
+    width: 65vw;
+    align-items: center;
+    text-align: center;
+  }
 }
 #secret{
+  
   font-family: MysticFont;
   font-size: 20pt;
 }
