@@ -144,20 +144,14 @@ html {
 
 #bigimage{
   display: flex;
+  position: fixed;
   justify-content: center;
   align-items: center;
 }
 
 #bigimg{
+  max-height: 90%;
+  max-width: 90%;
   border-radius: 2%;
-  width:90%;
-
-
-}
-
-@media (min-width:320px) and (max-width:1000px){
-  .card{
-    pointer-events: none;
-  }
 
 }
