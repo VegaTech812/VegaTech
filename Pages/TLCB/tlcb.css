@@ -164,7 +164,7 @@ html {
 
 #bigimage{
   display: flex;
-  position: fixed;
+  position:relative;
   justify-content: center;
   align-items: center;
 }
