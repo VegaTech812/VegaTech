@@ -21,6 +21,7 @@ function CloseElement(){
     }
 }
 
+
 function OpenElement(ID){
     var element = document.getElementById("bigimage");
     if (element.style.visibility != "visible"){
