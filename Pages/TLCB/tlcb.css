@@ -55,7 +55,7 @@ html {
     position: absolute;
     margin: 0px 10vw;
     width: 80vw;
-    padding: 20px 0px;
+    padding: 10px 0px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -167,11 +167,13 @@ html {
   position:relative;
   justify-content: center;
   align-items: center;
+  
 }
 
 #bigimg{
   max-height: 90%;
   max-width: 90%;
   border-radius: 2%;
+  
 
 }
