@@ -73,7 +73,7 @@ html {
   color: #fff;
   font-family: MainFont;
 
-  background-image: linear-gradient(45deg, #f00 40%, #a00 60%);
+  background-image: linear-gradient(45deg, rgb(121, 15, 45) 20%, #a00 80%);
   background-size: 200% 100%;
   transition: background-position 0.4s ease-in-out;
     
