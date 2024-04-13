@@ -84,7 +84,7 @@ html {
 
 .header{
   width: 200px;
-  background: linear-gradient(135deg, rgb(7, 0, 30) 0%, rgb(157, 46, 46) 25%, rgb(112, 0, 95) 70%, rgb(30, 9, 60) 90%, rgb(18, 0, 55));
+  background: linear-gradient(135deg, rgb(7, 0, 30) 0%, rgb(157, 46, 46) 25%, rgb(86, 0, 54) 70%, rgb(30, 9, 60) 90%, rgb(18, 0, 55));
   color: white;
 
   font-weight: 700;
