@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
       particle.style.width = size + 'px';
       particle.style.height = size + 'px';
       particle.style.backgroundColor = 'white';
-      particle.style.borderRadius = '50%';
+      particle.style.borderRadius = '200%';
       particle.style.position = 'absolute';
       particle.style.opacity = 0;
       particle.style.zIndex = -100

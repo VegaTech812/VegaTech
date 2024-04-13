@@ -3,22 +3,28 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="./styles.css">
         <link rel="icon" type="image/x-icon" href="./Resources/Logo2.png">
         <title>Vega Tech</title>
     </head>
     <body>
-        <div id="particles"></div>
+        
 
-        <div id="LogoContainer">
-            <img src="./Resources/Logo2.png" alt="Logo" id="Logo">
+        <div id="LogoContainer" class="logo">
+            <a class="insta1" href="https://www.instagram.com/vegatech.fll/"><img src="./Resources/Logo2.png" alt="Logo" id="Logo"></a>
+            <h1 class="hi"><a class="insta2" href="https://www.instagram.com/vegatech.fll/">Vega Tech</a> Robotik Takımı web sitesine <span>HOŞGELDİNİZ</span></h1>
+            
         </div>
+        <div class="click">
         <div id="BtnContainer">
-            <button class="btn" onclick="location.href='./Pages/About/About.html'">Hakkımızda</button>
-            <button class="btn" onclick="location.href='./Pages/Project/Project.html'">Projemiz</button>
-            <button class="btn" onclick="location.href='./Pages/Gallery/gallery.html'">Galeri</button>
-            <button class="btn" onclick="location.href='./Pages/TLCB/tlcb.html'">THELEGENDCOMEBACK</button>
+            <button class="btn" id="Hakkımızda" onclick="location.href='./Pages/About/About.html'">Hakkımızda</button>
+            <button class="btn" id="Projemiz" onclick="location.href='./Pages/Project/Project.html'">Projemiz</button>
+            </div>
+            <div id="BtnContainer2">
+            <button class="btn" id="Galeri" onclick="location.href='./Pages/Gallery/gallery.html'">Galeri</button>
+            <button class="btn" id="tlcb" onclick="location.href='./Pages/TLCB/tlcb.html'">The Legend Comeback</button>
         </div>
+    </div>
         <script src="./script.js"></script>
     </body>
 </html>

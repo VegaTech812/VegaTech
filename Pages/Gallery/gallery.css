@@ -8,7 +8,7 @@
 
 
 html {
-    background: linear-gradient(225deg, #3a0000, #1a0000);
+    background: linear-gradient(225deg, #02003a, #00051a);
     background-size: 400% 400%;
     
     -webkit-animation: AnimationName 30s ease infinite;
@@ -76,7 +76,9 @@ html {
     position: absolute;
   
     background-color: rgba(255, 255, 255, 0.5);
-    border-radius: 20px;
+    border-radius: 15px;
+    border:2px dotted;
+    border-color: aliceblue;
   }
 .card{
     margin: 25px;
@@ -84,13 +86,13 @@ html {
     height: 200px;
 
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
-    border-radius: 10px;
+    border-radius: 8px;
     transition: 0.3s;
     }
 
 
 .card:hover{
-    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.5);
+    box-shadow: 0 16px 32px 0 rgba(1, 1, 1, 0.5);
     width: 210px;
     height: 210px;
     font-size: 250%;

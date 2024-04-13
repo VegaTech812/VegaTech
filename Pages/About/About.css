@@ -11,7 +11,7 @@
 }
 
 html {
-  background: linear-gradient(225deg, #3a0000, #1a0000);
+  background: linear-gradient(225deg, #14003a, #1a0000);
   background-size: 400% 400%;
   
   -webkit-animation: AnimationName 30s ease infinite;
@@ -84,7 +84,7 @@ html {
 
 .header{
   width: 200px;
-  background: linear-gradient(135deg, rgb(30, 0, 0) 0%, rgb(102, 0, 0) 25%, rgba(175,0,0,1) 50%, rgb(102, 0, 0) 75%, rgb(30, 0, 0));
+  background: linear-gradient(135deg, rgb(7, 0, 30) 0%, rgb(157, 46, 46) 25%, rgb(112, 0, 95) 70%, rgb(30, 9, 60) 90%, rgb(18, 0, 55));
   color: white;
 
   font-weight: 700;
@@ -109,7 +109,7 @@ html {
   flex-direction: row;
   align-items: center;
   gap: 30px;
-  color:#ff5757;
+  color:#d2d0d0;
 
 }
 
@@ -130,11 +130,11 @@ html {
   justify-content: start;
   flex-wrap: wrap;
   width: 70vw;
-  border: 2px solid #ff5757;
+  border: 2px solid #580000;
   border-radius: 10px;
   margin:20px 0;
   padding: 20px 50px;
-  box-shadow: 4px 4px 8px 5px #ff5757;
+  box-shadow: 4px 4px 8px 5px #fee7e7;
 
 }
 
@@ -153,7 +153,7 @@ html {
   justify-content: flex-start;
   flex-wrap: wrap;
   gap: 9px;
-  color:#ff5757;
+  color:#f9d3b8;
   font-size: larger;
 }
 
@@ -172,7 +172,7 @@ html {
   padding: 0;
   font-size: 18px;
   font-weight: bold;
-  font-family:SecondaryFont ;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color:#ffc0c0;
 }
 
@@ -203,8 +203,10 @@ html {
   box-shadow: -4px 4px 8px 5px #ff5757;
 }
 #logo{
-    width: 550px;
-    height:550px;
+    width: 40vw;
+    
+    background-color: #3a002887;
+    border-radius: 50%;
 }
 
 
@@ -283,6 +285,6 @@ html {
 }
 #secret{
   
-  font-family: MysticFont;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 20pt;
 }
